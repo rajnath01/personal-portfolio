@@ -21,13 +21,10 @@ jobs:
         with:
           node-version: '16'
           
-      - name: Install and Build with Debug
+      - name: Simple Build
         run: |
-          npm install --no-package-lock --force
-          node build-debug.js
-        env:
-          CI: false
-
+          node simple-build.js
+        
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

@@ -151,7 +151,13 @@ const indexHtml = `
 // Write the index.html file to the build directory
 fs.writeFileSync(path.join('build', 'index.html'), indexHtml);
 
+// Also create a 404.html file with the same content
+fs.writeFileSync(path.join('build', '404.html'), indexHtml);
+
 // Create a .nojekyll file to prevent GitHub Pages from using Jekyll
 fs.writeFileSync(path.join('build', '.nojekyll'), '');
+
+// Create a CNAME file if you have a custom domain
+// fs.writeFileSync(path.join('build', 'CNAME'), 'yourdomain.com');
 
 console.log('Simple build completed successfully!');

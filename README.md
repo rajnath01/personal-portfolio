@@ -1,56 +1,75 @@
-# Personal Portfolio
+# Raj Nath Singh - Portfolio
 
-A sophisticated personal portfolio website showcasing my projects and skills.
+A luxury portfolio website showcasing my work as a designer and developer. This portfolio is built with React and deployed on GitHub Pages.
+
+## Live Site
+
+Visit the live site at [https://rajnath01.github.io/personal-portfolio/](https://rajnath01.github.io/personal-portfolio/)
 
 ## Features
 
-- Elegant, responsive design with luxury aesthetics
-- Interactive project showcase with animations
-- Contact form for potential clients and collaborators
-- Mobile-friendly navigation with smooth scrolling
+- Responsive design for all device sizes
+- Elegant animations and transitions
+- Project showcase with detailed descriptions
+- Contact form for potential clients
+- Social media integration
 
 ## Technologies Used
 
-- React.js
+- React
 - CSS3 with custom animations
-- Responsive design principles
 - Font Awesome for icons
+- GitHub Actions for CI/CD
+- GitHub Pages for hosting
 
-## Live Demo
+## Development
 
-Visit the live portfolio: [Personal Portfolio](https://rajnath01.github.io/personal-portfolio/)
+### Prerequisites
 
-## Installation and Setup
+- Node.js (v14 or higher)
+- npm or yarn
 
-1. Clone the repository:
+### Installation
+
+1. Clone the repository
    ```
    git clone https://github.com/rajnath01/personal-portfolio.git
    ```
 
-2. Navigate to the project directory:
-   ```
-   cd personal-portfolio
-   ```
-
-3. Install dependencies:
+2. Install dependencies
    ```
    npm install
    ```
 
-4. Start the development server:
+3. Start the development server
    ```
    npm start
    ```
 
-5. To deploy to GitHub Pages:
-   ```
-   npm run deploy
-   ```
+### Building for Production
+
+```
+npm run build
+```
+
+### Deployment
+
+The site is automatically deployed to GitHub Pages when changes are pushed to the main branch, using the GitHub Actions workflow defined in `.github/workflows/deploy.yml`.
+
+## Project Structure
+
+- `public/` - Static assets and HTML template
+- `src/` - React components and styles
+- `.github/workflows/` - GitHub Actions workflow files
+- `.cursor/rules/` - Coding standards and guidelines
 
 ## License
 
-MIT
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
 
-For inquiries, please reach out via the contact form on the portfolio or connect through the social links provided.
+- Email: rajnathsingh.dev@gmail.com
+- GitHub: [github.com/rajnath01](https://github.com/rajnath01)
+- LinkedIn: [linkedin.com/in/rajnathsingh01](https://linkedin.com/in/rajnathsingh01)
+- Twitter: [twitter.com/rajnathsingh01](https://twitter.com/rajnathsingh01)

@@ -70,6 +70,6 @@ MIT
 ## Contact
 
 Feel free to reach out if you have any questions or suggestions:
-- Email: rajnathsingh.dev@gmail.com
+- Email: rajnath150203@gmail.com
 - GitHub: [rajnath01](https://github.com/rajnath01)
 - LinkedIn: [rajnathsingh01](https://linkedin.com/in/rajnathsingh01)

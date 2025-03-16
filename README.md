@@ -1,75 +1,75 @@
-# Raj Nath Singh - Portfolio
+# Personal Portfolio Website
 
-A luxury portfolio website showcasing my work as a designer and developer. This portfolio is built with React and deployed on GitHub Pages.
+A modern, responsive portfolio website built with React to showcase my projects and skills.
 
-## Live Site
+## Live Demo
 
-Visit the live site at [https://rajnath01.github.io/personal-portfolio/](https://rajnath01.github.io/personal-portfolio/)
+Visit the live site: [https://rajnath01.github.io/personal-portfolio/](https://rajnath01.github.io/personal-portfolio/)
 
 ## Features
 
-- Responsive design for all device sizes
-- Elegant animations and transitions
-- Project showcase with detailed descriptions
-- Contact form for potential clients
-- Social media integration
+- Responsive design that works on all devices
+- Modern UI with smooth animations
+- Project showcase section
+- Contact form
+- About me section with skills
+- Social media links
 
 ## Technologies Used
 
-- React
+- React.js
 - CSS3 with custom animations
-- Font Awesome for icons
-- GitHub Actions for CI/CD
 - GitHub Pages for hosting
+- GitHub Actions for CI/CD
 
-## Development
+## Setup and Installation
 
-### Prerequisites
-
-- Node.js (v14 or higher)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository
+1. Clone the repository:
    ```
    git clone https://github.com/rajnath01/personal-portfolio.git
+   cd personal-portfolio
    ```
 
-2. Install dependencies
+2. Install dependencies:
    ```
    npm install
    ```
 
-3. Start the development server
+3. Start the development server:
    ```
    npm start
    ```
 
-### Building for Production
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Deployment
+
+This project is configured to deploy automatically to GitHub Pages using GitHub Actions. When you push changes to the `main` branch, the workflow will:
+
+1. Build the project
+2. Deploy it to the `gh-pages` branch
+
+To manually deploy:
 
 ```
 npm run build
+npm run deploy
 ```
 
-### Deployment
+## Troubleshooting
 
-The site is automatically deployed to GitHub Pages when changes are pushed to the main branch, using the GitHub Actions workflow defined in `.github/workflows/deploy.yml`.
-
-## Project Structure
-
-- `public/` - Static assets and HTML template
-- `src/` - React components and styles
-- `.github/workflows/` - GitHub Actions workflow files
-- `.cursor/rules/` - Coding standards and guidelines
+If images or assets aren't displaying correctly:
+- Ensure all image paths are correct
+- Add a `.nojekyll` file in the `public` directory to prevent GitHub Pages from ignoring files that start with an underscore
+- Check that the `homepage` field in `package.json` is set correctly
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+MIT
 
 ## Contact
 
+Feel free to reach out if you have any questions or suggestions:
 - Email: rajnathsingh.dev@gmail.com
-- GitHub: [github.com/rajnath01](https://github.com/rajnath01)
-- LinkedIn: [linkedin.com/in/rajnathsingh01](https://linkedin.com/in/rajnathsingh01)
-- Twitter: [twitter.com/rajnathsingh01](https://twitter.com/rajnathsingh01)
+- GitHub: [rajnath01](https://github.com/rajnath01)
+- LinkedIn: [rajnathsingh01](https://linkedin.com/in/rajnathsingh01)

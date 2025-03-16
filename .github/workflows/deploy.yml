@@ -25,6 +25,9 @@ jobs:
         run: |
           node simple-build.js
         
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+        
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -32,3 +35,4 @@ jobs:
           publish_dir: ./build
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
+          force_orphan: true

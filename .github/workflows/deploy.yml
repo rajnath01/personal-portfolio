@@ -20,15 +20,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-          cache: 'npm'
           
       - name: Install Dependencies
         run: |
-          # Create package-lock.json if it doesn't exist
-          if [ ! -f package-lock.json ]; then
-            npm install --package-lock-only
-          fi
-          npm ci || npm install --legacy-peer-deps
+          # Skip using package-lock.json entirely
+          npm install --no-package-lock --legacy-peer-deps
         env:
           CI: false
 

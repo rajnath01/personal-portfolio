@@ -105,25 +105,51 @@
       color: #121212;
       transform: translateY(-5px);
     }
+    
+    .contact-info {
+      margin-top: 2rem;
+      font-size: 1.1rem;
+    }
+    
+    .contact-info a {
+      color: #b29700;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+    
+    .error-text {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: #d4b41c;
+    }
   </style>
 </head>
 <body>
   <h1>Raj Nath Singh</h1>
-  <h2>Portfolio</h2>
+  <p class="error-text">Page Not Found</p>
+  <p>
+    The page you're looking for doesn't exist or has been moved.
+  </p>
   <p>
     I am a distinguished designer and developer devoted to crafting exquisite digital experiences that embody sophistication and refinement.
     With an unwavering commitment to excellence and a discerning eye for detail, I create bespoke solutions where elegance meets functionality.
   </p>
-  <p>
-    My full portfolio site is currently being updated. Please check back soon for the complete experience.
-  </p>
-  <a href="https://github.com/rajnath01" class="button">View My GitHub</a>
+  
+  <a href="https://rajnath01.github.io/personal-portfolio/" class="button">Return to Homepage</a>
+  
+  <div class="contact-info">
+    <p>Contact: <a href="mailto:rajnath150203@gmail.com">rajnath150203@gmail.com</a></p>
+  </div>
   
   <div class="social-links">
     <a href="https://github.com/rajnath01" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
       <i class="fab fa-github"></i>
     </a>
-    <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+    <a href="https://linkedin.com/in/rajnathsingh01" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
       <i class="fab fa-linkedin-in"></i>
     </a>
     <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
@@ -132,7 +158,7 @@
   </div>
   
   <script>
-    console.log('Portfolio site loaded successfully');
+    console.log('404 page loaded');
   </script>
 </body>
 </html>

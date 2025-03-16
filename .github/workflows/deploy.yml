@@ -23,13 +23,17 @@ jobs:
           
       - name: Install Dependencies
         run: |
-          # Skip using package-lock.json entirely
-          npm install --no-package-lock --legacy-peer-deps
+          # Skip using package-lock.json entirely and ignore scripts
+          npm install --no-package-lock --legacy-peer-deps --ignore-scripts
         env:
           CI: false
 
       - name: Build
-        run: npm run build
+        run: |
+          # Set NODE_OPTIONS to increase memory limit
+          export NODE_OPTIONS=--max_old_space_size=4096
+          # Build with CI=false to ignore warnings
+          CI=false npm run build
         env:
           CI: false
 

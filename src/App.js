@@ -149,7 +149,7 @@ function App() {
           <div className="contact-container">
             <div className="contact-info">
               <p><strong>Let's collaborate</strong> on creating something truly exceptional. I'm available for select projects that demand the highest standards of excellence and sophistication.</p>
-              <p><strong>Email:</strong> rajnathsingh.dev@gmail.com</p>
+              <p><strong>Email:</strong> rajnath150203@gmail.com</p>
               <div className="social-links">
                 <a href="https://github.com/rajnath01" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <i className="fab fa-github"></i>

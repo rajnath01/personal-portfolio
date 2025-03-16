@@ -44,25 +44,25 @@ function App() {
     { 
       title: 'Bespoke E-commerce Experience', 
       description: 'An exquisite online shopping platform with refined aesthetics, intuitive navigation, and personalized client journeys. Crafted with meticulous attention to detail using React, Node.js, and MongoDB.',
-      link: 'https://github.com/yourusername/luxury-ecommerce',
+      link: 'https://github.com/rajnath01/luxury-ecommerce',
       image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80'
     },
     { 
       title: 'Curated Portfolio Gallery', 
       description: 'A meticulously designed gallery for discerning artists and photographers, featuring elegant transitions, thoughtful spacing, and immersive viewing experiences.',
-      link: 'https://github.com/yourusername/portfolio-gallery',
+      link: 'https://github.com/rajnath01/portfolio-gallery',
       image: 'https://images.unsplash.com/photo-1540350394557-8d14678e7f91?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80'
     },
     { 
       title: 'Premium Analytics Dashboard', 
       description: 'A sophisticated financial interface with bespoke data visualizations, tailored reporting tools, and a refined user experience that transforms complex data into elegant insights.',
-      link: 'https://github.com/yourusername/financial-dashboard',
+      link: 'https://github.com/rajnath01/financial-dashboard',
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80'
     },
     { 
       title: 'Exclusive Travel Companion', 
       description: 'An elite travel application offering handcrafted experiences, bespoke itineraries, and unparalleled attention to detail for the discerning traveler seeking extraordinary journeys.',
-      link: 'https://github.com/yourusername/travel-experience',
+      link: 'https://github.com/rajnath01/travel-experience',
       image: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80'
     }
   ];
@@ -149,19 +149,16 @@ function App() {
           <div className="contact-container">
             <div className="contact-info">
               <p><strong>Let's collaborate</strong> on creating something truly exceptional. I'm available for select projects that demand the highest standards of excellence and sophistication.</p>
-              <p><strong>Email:</strong> contact@yourname.com</p>
+              <p><strong>Email:</strong> rajnathsingh.dev@gmail.com</p>
               <div className="social-links">
                 <a href="https://github.com/rajnath01" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <i className="fab fa-github"></i>
                 </a>
-                <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="https://linkedin.com/in/rajnathsingh01" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <i className="fab fa-linkedin-in"></i>
                 </a>
-                <a href="https://dribbble.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="Dribbble">
-                  <i className="fab fa-dribbble"></i>
-                </a>
-                <a href="https://behance.net/yourusername" target="_blank" rel="noopener noreferrer" aria-label="Behance">
-                  <i className="fab fa-behance"></i>
+                <a href="https://twitter.com/rajnathsingh01" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                  <i className="fab fa-twitter"></i>
                 </a>
               </div>
             </div>

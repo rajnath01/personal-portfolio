@@ -101,9 +101,9 @@ function App() {
         <div id="about" className="section">
           <h2>About Me</h2>
           <div className="about-content">
-            {/* Profile Image */}
+            {/* Profile Image - Updated with a more reliable image source */}
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+              src="https://avatars.githubusercontent.com/u/88278631?v=4"
               alt="Profile" 
               className="profile-image" 
             />

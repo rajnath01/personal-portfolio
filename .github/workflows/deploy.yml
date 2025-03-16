@@ -23,20 +23,17 @@ jobs:
           
       - name: Install Dependencies
         run: |
-          npm install --legacy-peer-deps
-          npm install --save @fortawesome/fontawesome-free
+          npm ci || npm install --force
         env:
           CI: false
 
-      - name: Build
+      - name: Deploy directly with gh-pages
         run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          npm install -g gh-pages
           npm run build
+          gh-pages -d build -u "github-actions-bot <support+actions@github.com>"
         env:
           CI: false
-
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: build
-          branch: gh-pages
-          clean: true
+          GH_TOKEN: ${{ github.token }}

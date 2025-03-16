@@ -2,10 +2,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: write
   pages: write
@@ -23,9 +21,16 @@ jobs:
         with:
           node-version: '18'
           cache: 'npm'
-
+          
       - name: Install Dependencies
-        run: npm install --legacy-peer-deps
+        run: |
+          # Create package-lock.json if it doesn't exist
+          if [ ! -f package-lock.json ]; then
+            npm install --package-lock-only
+          fi
+          npm ci || npm install --legacy-peer-deps
+        env:
+          CI: false
 
       - name: Build
         run: npm run build
